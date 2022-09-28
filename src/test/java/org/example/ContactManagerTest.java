@@ -77,7 +77,7 @@ class ContactManagerTest {
         Assertions.assertEquals(1, contactManager.getAllContacts().size());
     }
 
-    @DisplayName("Repeated test")
+    @DisplayName("Repeated unit test")
     @RepeatedTest(value = 5)
     public void repeatedTest() {
         Assumptions.assumeTrue(true);
